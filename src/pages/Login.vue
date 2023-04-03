@@ -93,7 +93,9 @@ export default {
           }
           state.time = `${n}s`;
         }, 1000);
-      } catch (err) {}
+      } catch (err) {
+        console.log(1);
+      }
     };
 
     // 表单提交
